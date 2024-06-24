@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust z-index as needed */
+  background-color: #fff; /* Background color when fixed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for elevation */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
